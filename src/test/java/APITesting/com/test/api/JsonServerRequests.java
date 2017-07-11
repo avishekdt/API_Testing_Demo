@@ -136,7 +136,8 @@ public class JsonServerRequests {
 			
 			//calculate response time performance
 			@Test
-			public void test_08(){
+			//this is 2nd commit
+			public void test_08(){ 
 				Response r = given().
 						 when().
 						 get("http://localhost:3000/posts");
